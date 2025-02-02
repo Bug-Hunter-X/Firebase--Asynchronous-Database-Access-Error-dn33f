@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a database reference before the connection to the database is established. This is particularly common in asynchronous operations where you might try to access data before the `.on('value', ...)` callback has completed.
