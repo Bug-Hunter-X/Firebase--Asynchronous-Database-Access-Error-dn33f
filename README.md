@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase when accessing the database asynchronously. The `bug.js` file shows the error, and `bugSolution.js` provides a solution using promises or async/await.
